@@ -6,12 +6,12 @@ const Main = () => {
         <section className="person">
           <img src="milton.jpg" alt="" />
         </section>
-        <h2 className="developer-name">I &apos;m Milton Kumirai</h2>
+        <h2 className="developer-name">Hi there,</h2>
         <p className="title">
-          a <span>Web Developer</span>
+        I &apos;m a <span>Web Developer</span>
         </p>
         <p className="description">
-          Creative and dedicated Web Developer skilled in HTML, CSS, JavaScript,
+          Creative and dedicated skilled in HTML, CSS, JavaScript,
           and React. Passionate about designing responsive, user-friendly web
           applications. I thrive on transforming complex problems into dynamic,
           intuitive solutions. Always eager to learn and adopt the latest web
