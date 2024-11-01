@@ -37,7 +37,7 @@ header h1 {
 }
 
 header h1 > span {
-  background: linear-gradient(360deg, #7367F0, rgba(206, 159, 252, 1));
+  background: linear-gradient(360deg, #7367f0, rgba(206, 159, 252, 1));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -91,7 +91,6 @@ main .developer-name {
   font-size: 1.2rem;
   font-weight: 300;
   margin: 0.3rem 0;
-  
 }
 main .main .title {
   font-size: 2rem;
@@ -100,7 +99,7 @@ main .main .title {
 }
 
 main .title > span {
-  background: linear-gradient(360deg, #7367F0, rgba(206, 159, 252, 1));
+  background: linear-gradient(360deg, #7367f0, rgba(206, 159, 252, 1));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -130,6 +129,8 @@ main .buttons {
 main button {
   padding: 0.5rem 1rem;
   background-color: #4169e1;
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
   color: white;
   border: none;
   border-radius: 5px;
@@ -137,7 +138,7 @@ main button {
   font-weight: 300;
   margin: 1rem 1.4rem 1rem 0;
 }
-main .person img{
+main .person img {
   width: 8rem;
   border-radius: 50%;
 }
