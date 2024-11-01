@@ -1,9 +1,12 @@
 const Header = () => {
   return (
     <header>
-      <h1>
-        <span>Milton </span>Kumirai
-      </h1>
+      <div className="logo">
+        <img src="code.png" alt="" />
+        <h1>
+          <span>Milton </span>Kumirai
+        </h1>
+      </div>
       <ul>
         <li>
           <a href="#home">Home</a>
