@@ -37,7 +37,10 @@ header h1 {
 }
 
 header h1 > span {
-  color: #4169e1;
+  background: linear-gradient(360deg, #7367F0, rgba(206, 159, 252, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   font-weight: 600;
 }
 
@@ -88,6 +91,7 @@ main .developer-name {
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0.3rem 0;
+  
 }
 main .main .title {
   font-size: 2rem;
@@ -96,7 +100,10 @@ main .main .title {
 }
 
 main .title > span {
-  color: #4169e1;
+  background: linear-gradient(360deg, #7367F0, rgba(206, 159, 252, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 main .description {
