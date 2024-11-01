@@ -93,12 +93,15 @@ main .developer-name {
   margin: 0.3rem 0;
 }
 main .main .title {
-  font-size: 2rem;
-  margin: 0.1rem 0;
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0.3rem 0;
 }
 
 main .title > span {
+  font-size: 1.6rem;
+  margin: 0.1rem 0;
+  font-weight: 500;
   background: linear-gradient(360deg, #7367f0, rgba(206, 159, 252, 1));
   -webkit-background-clip: text;
   background-clip: text;
