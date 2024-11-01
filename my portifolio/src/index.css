@@ -6,3 +6,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
