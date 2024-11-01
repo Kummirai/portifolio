@@ -74,7 +74,7 @@ main {
 }
 
 .page-image {
-  grid-column: 8 / 12;
+  grid-column: 8 / 13;
   grid-row: 1 / 12;
 }
 
@@ -83,7 +83,7 @@ main img {
 }
 
 main .main {
-  grid-column: 2 / 9;
+  grid-column: 2 / 8;
   grid-row: 1 / 12;
 }
 
@@ -113,7 +113,7 @@ main .description {
   font-weight: 200;
   margin: 1rem 0;
   text-align: justify;
-  width: 70%;
+  width: 80%;
 }
 
 main .greeting {
@@ -126,7 +126,7 @@ main .buttons {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 35%;
+  width: 50%;
 }
 
 main button {
