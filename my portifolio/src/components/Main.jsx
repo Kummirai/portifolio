@@ -6,7 +6,7 @@ const Main = () => {
         <section className="person">
           <img src="milton.jpg" alt="" />
         </section>
-        <h2 className="developer-name">I&apos;m Milton Kumirai</h2>
+        <h2 className="developer-name">I &apos;m Milton Kumirai</h2>
         <p className="title">
           a <span>Web Developer</span>
         </p>
