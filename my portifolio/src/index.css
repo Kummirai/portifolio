@@ -45,3 +45,19 @@ header a:hover {
   color: #4169e1;
   border-bottom: 1px solid #4169e1;
 }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main img {
+  width: 500px;
+}
+
+main .main {
+  width: 50%;
+}
+
+/*<a href="https://lovepik.com/images/png-gamedevelopment.html">Game Development Png vectors by Lovepik.com</a>*/
