@@ -14,15 +14,19 @@
 header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  padding: 1rem 0;
 }
 
 header h1 {
-  font-size: 1.4rem;
   grid-column: 2 / span 3;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0.3rem 0;
 }
 
 header h1 > span {
   color: #4169e1;
+  font-weight: 600;
 }
 
 header ul {
@@ -48,20 +52,15 @@ header a:hover {
   border-bottom: 1px solid #4169e1;
 }
 main {
-  /* display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: 100vh;
-  margin: 60px 0 0 0;
-  padding: 0 13rem; */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 100px);
+  padding-top: 4rem;
 }
 
 .page-image {
   grid-column: 8 / 12;
-  grid-row: 2 / 12;
+  grid-row: 1 / 12;
 }
 
 main img {
@@ -70,7 +69,7 @@ main img {
 
 main .main {
   grid-column: 2 / 9;
-  grid-row: 2 / 12;
+  grid-row: 1 / 12;
 }
 
 main .developer-name {
