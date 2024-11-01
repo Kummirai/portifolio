@@ -2,7 +2,10 @@ const Main = () => {
   return (
     <main>
       <section className="main">
-        <p className="greeting">Hello Mate</p>
+        {/* <p className="greeting">Hello Mate</p> */}
+        <section className="person">
+          <img src="milton.jpg" alt="" />
+        </section>
         <h2 className="developer-name">I&apos;m Milton Kumirai</h2>
         <p className="title">
           a <span>Web Developer</span>
@@ -14,6 +17,9 @@ const Main = () => {
           intuitive solutions. Always eager to learn and adopt the latest web
           technologies. Let&apos;s build the future of the web together
         </p>
+        <section className="person">
+          <img src="milton.jp" alt="" />
+        </section>
         <section className="buttons">
           <button>Book A Call</button>
           <button>Download CV</button>

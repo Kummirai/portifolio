@@ -70,7 +70,7 @@ main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(7, 100px);
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .page-image {
@@ -79,7 +79,7 @@ main {
 }
 
 main img {
-  width: 500px;
+  width: 34rem;
 }
 
 main .main {
@@ -136,6 +136,10 @@ main button {
   font-size: 1rem;
   font-weight: 300;
   margin: 1rem 1.4rem 1rem 0;
+}
+main .person img{
+  width: 8rem;
+  border-radius: 50%;
 }
 
 main button:hover {
